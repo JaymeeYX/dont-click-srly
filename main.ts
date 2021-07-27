@@ -1,0 +1,16 @@
+basic.forever(function () {
+    music.playMelody("C - D - E - C - ", 120)
+    music.playMelody("F - G - G F E C ", 120)
+    music.playMelody("D E C - C D C D ", 120)
+    music.playMelody("F - F - E - E C ", 120)
+    music.playMelody("C D E - E D C - ", 120)
+    music.playMelody("C - C - C D C - ", 120)
+    music.playMelody("C D E D - - - - ", 120)
+})
+basic.forever(function () {
+    basic.clearScreen()
+    basic.showString("///////")
+    basic.showString("////////")
+    basic.showString("/////////")
+    basic.showString("//////////")
+})
